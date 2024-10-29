@@ -1,0 +1,26 @@
+.change {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.change input {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 200px;
+}
+
+.change button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.change button:hover {
+    background-color: #218838;
+    cursor: pointer;
+}

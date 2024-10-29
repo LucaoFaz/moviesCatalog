@@ -1,0 +1,26 @@
+.delete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.delete input {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 200px;
+}
+
+.delete button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.delete button:hover {
+    background-color: #c82333;
+    cursor: pointer;
+}
